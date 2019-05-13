@@ -24,9 +24,9 @@ fun main(args: Array<String>) {
         val l3 = l!!
         println("The value of l3 is $l3")
     }
-//     catch (e: KotlinNullPointerException) {
-//        println("l3 is null")
-//    }
+     catch (e: KotlinNullPointerException) {
+        println("l3 is null")
+    }
     catch (e: Throwable) {
         println("l3 is null")
     }
