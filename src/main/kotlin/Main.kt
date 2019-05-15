@@ -2,14 +2,15 @@
 fun main(args: Array<String>) {
     var nullValue:String? = null
     println(nullValue)
-
+                                           
     val l:Int? = nullValue?.length
     println("Length is $l")
 
     if (l == null) {
         println("Length is null")
     }
-
+    val arrayOf = arrayOf("");
+    arrayOf.sortDescending();
     val message = if (l != null) {
         "Length: $l"
     } else {

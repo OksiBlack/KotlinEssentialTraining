@@ -14,5 +14,13 @@ class App {
  *
  */
 fun main(args: Array<String>) {
-    println(App().greeting)
+    val app = App()
+    println(app.greeting)
+
+     var num = 9.789;
+    val toBigDecimal = num.toBigDecimal();
+
+    toBigDecimal.toDouble();
+
+
 }
